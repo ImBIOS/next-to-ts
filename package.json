@@ -1,0 +1,46 @@
+{
+  "name": "next-to-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "ava"
+  },
+  "bin": {
+    "next2ts": "index.js"
+  },
+  "repository": {
+    "url": "git://github.com/ImBIOS/next-to-ts.git"
+  },
+  "author": "Imamuzzaki Abu Salam <imamuzzaki@gmail.com> (https://imbios.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ImBIOS/next-to-ts/issues"
+  },
+  "homepage": "https://github.com/ImBIOS/next-to-ts#readme",
+  "description": "Convert a next.js project to typescript in seconds",
+  "prettier": {
+    "semi": true,
+    "singleQuote": true
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {
+    "@vitejs/create-app": "^2.3.2",
+    "cross-spawn": "^7.0.3",
+    "kolorist": "^1.4.1"
+  },
+  "keywords": [
+    "nextjs",
+    "next",
+    "typescript",
+    "ts",
+    "convertor",
+    "nextjs to typescript",
+    "migration"
+  ],
+  "devDependencies": {
+    "ava": "3.15.0"
+  }
+}
