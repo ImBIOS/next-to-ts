@@ -1,6 +1,6 @@
 {
   "name": "next-to-ts",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -42,5 +42,8 @@
   ],
   "devDependencies": {
     "ava": "3.15.0"
+  },
+  "publishConfig": {
+    "@ImBIOS:registry": "https://npm.pkg.github.com"
   }
 }
