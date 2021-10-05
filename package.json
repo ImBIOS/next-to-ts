@@ -7,7 +7,7 @@
     "test": "ava"
   },
   "bin": {
-    "next2ts": "index.js"
+    "next-to-ts": "index.js"
   },
   "repository": {
     "url": "git://github.com/ImBIOS/next-to-ts.git"
