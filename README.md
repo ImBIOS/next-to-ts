@@ -53,6 +53,6 @@ pnpx next-to-ts
 
 ### Licence
 
-This project is under [MIT](https://github.com/ImBIOS/next-to-ts) Licence
+This project is under [MIT](https://github.com/ImBIOS/next-to-ts/blob/master/LICENSE) Licence
 
 This project was created based on [next2ts](https://github.com/makuzaverite/next2ts)
