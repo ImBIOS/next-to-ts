@@ -1,5 +1,9 @@
 ### Next To Typescript
 
+<a aria-label="NPM version" href="https://www.npmjs.com/package/next-to-ts">
+    <img alt="" src="https://img.shields.io/npm/v/next-to-ts.svg?style=for-the-badge&labelColor=000000">
+  </a>
+
 Migrate your Next.js Project from javaScript to typescript in seconds
 
 ### Get started
