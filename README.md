@@ -4,59 +4,36 @@
     <img alt="" src="https://img.shields.io/npm/v/next-to-ts.svg?style=for-the-badge&labelColor=000000">
   </a>
 
-Migrate your Next.js Project from javaScript to typescript in seconds
+Migrate your Next.js project from JavaScript to TypeScript in seconds
 
 ### Get started
 
 
-Make sure you are inside a next.js Project
+Make sure you are inside a Next.js project
 
 
 Execute
 
-
 ```bash
 npx next-to-ts
 ```
+
 or
 
 ```bash
-pnpx next-to-ts
+pnpm dlx next-to-ts
 ```
 
 
 ### What does it do
 
-
-
 - It moves file these directories to typescript respectively.
-
-```
-  components
-    |
-    |__ jsx,js --> tsx
-
-  lib
-    |
-    |
-    |__ js --> ts
-
-  pages or src/pages
-    |
-    |__api
-    |   |
-    |   |__.js --> .ts
-    |
-    |_____.jsx,.js -> .tsx
-```
-
 - Installs all necessary packages.
 - sets up standard `tsconfig.json` for next.js apps
-- Have any idea to add one file an Issue or PR
 
 
-### Licence
+### Contributing
 
-This project is under [MIT](https://github.com/ImBIOS/next-to-ts/blob/master/LICENSE) Licence
+If you have any idea consider open issue or firing a PR.
 
-This project was created based on [next2ts](https://github.com/makuzaverite/next2ts)
+Imamuzzaki Abu Salam &copy;2021-2022 under MIT licence

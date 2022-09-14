@@ -1,18 +1,25 @@
 {
   "name": "next-to-ts",
-  "version": "1.0.4",
-  "main": "index.js",
+  "version": "1.0.5",
+  "exports": "./dist/index.js",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "start": "node index.js",
-    "test": "ava"
+    "start": "./dist/index.js"
   },
   "bin": {
-    "next-to-ts": "index.js"
+    "next-to-ts": "./dist/index.js"
   },
   "repository": {
     "url": "git://github.com/ImBIOS/next-to-ts.git"
   },
-  "author": "Imamuzzaki Abu Salam <imamuzzaki@gmail.com> (https://imbios.github.io/)",
+  "author": {
+    "name": "Imamuzzaki Abu Salam",
+    "email": "imamuzzaki@gmail.com",
+    "url": "https://imam.dev/"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ImBIOS/next-to-ts/issues"
@@ -27,9 +34,10 @@
     "node": ">=12.0.0"
   },
   "dependencies": {
-    "@vitejs/create-app": "^2.3.2",
-    "cross-spawn": "^7.0.3",
-    "kolorist": "^1.4.1"
+    "execa": "^5.1.1",
+    "kolorist": "^1.5.0",
+    "ora": "^6.0.1",
+    "rec-get-files": "^0.0.7"
   },
   "keywords": [
     "nextjs",
@@ -37,13 +45,13 @@
     "typescript",
     "ts",
     "convertor",
+    "converter",
     "nextjs to typescript",
     "migration"
   ],
   "devDependencies": {
-    "ava": "3.15.0"
-  },
-  "publishConfig": {
-    "@ImBIOS:registry": "https://npm.pkg.github.com"
+    "@types/node": "^16.11.3",
+    "ts-node": "^10.3.1",
+    "typescript": "^4.4.4"
   }
 }
