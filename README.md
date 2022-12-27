@@ -35,5 +35,3 @@ pnpm dlx next-to-ts
 ### Contributing
 
 If you have any idea consider open issue or firing a PR.
-
-Imamuzzaki Abu Salam &copy;2021-2022 under MIT licence
